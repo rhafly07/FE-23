@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon" />
+    <title>Rhafly Dwi Saputra Tamal, S.Kom</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet" />
+    <style>
+      .custom-card {
+        max-width: 400px;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .custom-card img {
+        width: 100%;
+        height: auto;
+      }
+      .custom1-card {
+        max-width: 700px;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .custom1-card img {
+        width: 100%;
+        height: auto;
+      }
+      .image-container {
+        text-align: center;
+      }
+
+      .responsive-image {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+      }
+      .fixed-top {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: white;
+        box-shadow: 5px 5px 10px 1px #7e7272;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- static button wa -->
+    <div class="fixed-bottom text-end mb-3 px-3">
+      <a href="https://wa.link/ln5ue7" target="_blank">
+        <img src="wa_icon.png" width="80px" alt="whatsapp" />
+      </a>
+    </div>
+    <!-- end static button wa -->
+    <!-- header  -->
+    <div>
+      <header class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <a
+            href="/"
+            class="navbar-brand d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap" />
+            </svg>
+            <span style="font-family: monospace" class="fs-4 text-primary"
+              >Rhafly</span
+            >
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active" aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#portofolio" class="nav-link active">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link active">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="/CV.pdf" class="btn btn-outline-primary">
+                  My Resume
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-- end header  -->
+
+    <!-- content  -->
+    <div class="mt-5 container-fluid">
+      <!-- main  -->
+      <div class="container-fluid">
+        <div class="row" id="home">
+          <div class="col-md-6 order-md-last mt-3 text-center">
+            <div class="container-fluid image-container">
+              <img
+                id="responsiveImage"
+                src="b-01.png"
+                alt=""
+                class="responsive-image" />
+            </div>
+          </div>
+
+          <div class="col-md-6 order-md-first mt-3">
+            <div class="px-5">
+              <p style="font-family: monospace">HI THERE! 👋</p>
+              <h1
+                style="
+                  font-family: 'Montserrat:wght@800', sans-serif;
+                  font-size: 40px;
+                ">
+                I'm
+                <span class="text-primary"
+                  >Rhafly Dwi Saputra Tamal <br />a
+                </span>
+                <span id="typed-output"></span>
+              </h1>
+              <p
+                style="
+                  font-family: 'Poppins:wght@400', sans-serif;
+                  font-size: 15px;
+                ">
+                I am a software engineer, and I focus on frontend & backend
+                frameworks, widely used frameworks for developing WEB
+                applications. <br />
+                <br />
+                With seven years of experience in web application development
+                using HTML, CSS, JS, I understand the challenges in finding
+                high-quality and efficient resources when I first started
+                learning. That's why I decided to create an application using
+                PYTHON programming language with FLASK framework.
+                <br />
+                <br />
+                I grew up in the city of Makassar, really like the latest things
+                technology, and I look forward to being your partner! 👨🏻‍💻
+              </p>
+              <div class="row">
+                <div class="col mt-5">
+                  <h6>FIND WITH ME</h6>
+                  <div>
+                    <button class="btn btn-outline-primary">
+                      <i class="bi bi-facebook"></i>
+                    </button>
+                    <button class="btn btn-outline-primary">
+                      <i class="bi bi-instagram"></i>
+                    </button>
+                    <button class="btn btn-outline-primary">
+                      <i class="bi bi-linkedin"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="col mt-5">
+                  <h6>BEST SKILL ON</h6>
+                  <div>
+                    <button class="btn btn-primary">
+                      <i class="bi bi-filetype-html"></i>
+                    </button>
+                    <button class="btn btn-primary">
+                      <i class="bi bi-filetype-css"></i>
+                    </button>
+                    <button class="btn btn-primary">
+                      <i class="bi bi-filetype-js"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end main  -->
+
+      <!-- portofolio  -->
+      <div id="portofolio">
+        <h2 class="mt-5 pb-2 border-bottom"></h2>
+        <h5 style="text-align: center" class="mt-5 text-primary">
+          VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
+        </h5>
+        <div
+          style="
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Montserrat:wght@400';
+          ">
+          My Portfolio
+        </div>
+        <div class="container-fluid">
+          <div class="row row-cols-1 row-cols-md-3 g-3 mx-3">
+            <div class="col">
+              <div class="card border-0 text-center custom-card">
+                <img src="portfolio-01.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Mobile Application</h5>
+                  <p class="card-text">Central Connect - Smart Living Batam</p>
+                  <a href="" class="text-primary text-decoration-none"
+                    >Pelajari Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 text-center custom-card">
+                <img src="portfolio-02.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Mobile Application</h5>
+                  <p class="card-text">
+                    Suvarna Sutera Township - Real Estate Developer
+                  </p>
+                  <a href="" class="text-decoration-none text-primary"
+                    >Pelajari Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 text-center custom-card">
+                <img src="portfolio-03.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Mobile Application</h5>
+                  <p class="card-text">The Perfect City For a New Living</p>
+                  <a href="" class="text-primary text-decoration-none"
+                    >Pelajari Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 text-center custom-card">
+                <img src="portfolio-04.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Mobile Application</h5>
+                  <p class="card-text">
+                    Serenia Hills Residents with Estate Management.
+                  </p>
+                  <a href="" class="text-primary text-decoration-none"
+                    >Pelajari Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 text-center custom-card">
+                <img src="portfolio-05.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Mobile Application</h5>
+                  <p class="card-text">Real Estate Management Platform.</p>
+                  <a href="" class="text-primary text-decoration-none"
+                    >Pelajari Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 text-center custom-card">
+                <img src="portfolio-06.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Mobile Application</h5>
+                  <p class="card-text">
+                    eTown - Residential Management Platform.
+                  </p>
+                  <a href="" class="text-primary text-decoration-none"
+                    >Pelajari Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end portofolio  -->
+
+      <!-- contact  -->
+      <div id="contact" class="pt-5">
+        <h2 class="mt-5 pb-2 border-bottom"></h2>
+        <h5 style="text-align: center" class="mt-5 text-primary">CONTACT</h5>
+        <div
+          style="
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Montserrat:wght@400';
+          ">
+          Contact With Me
+        </div>
+
+        <div class="container-fluid mb-5">
+          <div class="row row-cols-1 row-cols-md-2 g-3 mx-3">
+            <div class="col">
+              <div class="card border-0 custom1-card">
+                <img src="contact1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="text-primary">Rhafly Dwi Saputra Tamal</h5>
+                  <h6>FULL STACK DEVELOPER</h6>
+                  <p>
+                    I am available for freelance work. Connect with me <br />via
+                    and call into my account. <br />
+                    Phone: +6285694084870
+                  </p>
+                  <div class="col mt-2">
+                    <h6>FIND WITH ME</h6>
+                    <div>
+                      <button class="btn btn-outline-primary">
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                      <button class="btn btn-outline-primary">
+                        <i class="bi bi-instagram"></i>
+                      </button>
+                      <button class="btn btn-outline-primary">
+                        <i class="bi bi-linkedin"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 custom1-card">
+                <div class="card-body bg-secondary bg-opacity-10">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Your Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control border-primary"
+                        id="exampleFormControlInput1" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="number"
+                        class="form-control border-primary"
+                        id="exampleFormControlInput1" />
+                    </div>
+                  </div>
+                  <div class="col-md-12 mt-4">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control border-primary"
+                      id="exampleFormControlInput1" />
+                  </div>
+                  <div class="col-md-12 mt-4">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      >Subject</label
+                    >
+                    <input
+                      style="height: 75px"
+                      type="text"
+                      class="form-control border-primary"
+                      id="exampleFormControlInput1" />
+                  </div>
+                  <div class="col-md-12 mt-4">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      >YOUR MESSAGE</label
+                    >
+                    <textarea
+                      style="height: 248px"
+                      class="form-control border-primary"
+                      id="floatingTextarea"></textarea>
+                  </div>
+                  <div class="mt-3">
+                    <button type="button" class="btn btn-outline-primary">
+                      Send
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end contact  -->
+    </div>
+    <!-- end content  -->
+
+    <!-- footer  -->
+    <div class="container text-center mb-5">
+      <h2 class="mt-5 pb-2 border-bottom"></h2>
+      <br />
+      <span style="font-family: monospace" class="fs-4 text-primary"
+        >Rhafly</span
+      >
+      <br />
+      <span class="pb-5"
+        >&copy; 2023. All rights reserved by
+        <span class="text-primary">Rhafly</span>.</span
+      >
+    </div>
+    <!-- end footer  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      function updateImageSize() {
+        var image = document.getElementById("responsiveImage");
+        var windowWidth = window.innerWidth;
+        if (windowWidth >= 768) {
+          image.style.maxWidth = "50%";
+        } else {
+          image.style.maxWidth = "100%";
+        }
+      }
+      updateImageSize();
+      window.addEventListener("resize", updateImageSize);
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var options = {
+          strings: [
+            "Full Stack Developer.",
+            "Cyber Security.",
+            "Mobile Developer",
+          ],
+          typeSpeed: 50,
+          backSpeed: 30,
+          showCursor: true,
+          cursorChar: "|",
+          loop: true,
+        };
+        var typed = new Typed("#typed-output", options);
+      });
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        const scrollPosition = window.scrollY;
+
+        if (scrollPosition > 0) {
+          header.classList.add("fixed-top");
+        } else {
+          header.classList.remove("fixed-top");
+        }
+      });
+    </script>
+  </body>
+</html>
